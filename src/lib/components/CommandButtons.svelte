@@ -11,7 +11,7 @@
 	const handleAddMonitor = () => {
 		monitors.update((ms) => [
 			...ms,
-			getNewMonitor(ms.length, $inputUnits === 'Metric' ? Math.round(27 * 2.54) : 27),
+			getNewMonitor(ms.length, $inputUnits === 'Metric' ? Math.round(28 * 2.54) : 28),
 		]);
 	};
 </script>
