@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Paper, { Content } from '@smui/paper';
+	export const prerender = true;
 </script>
 
 <main>

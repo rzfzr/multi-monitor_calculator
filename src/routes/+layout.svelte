@@ -2,6 +2,7 @@
 	import { AppContent } from '@smui/drawer';
 	import DarkModeToggle from '$lib/components/fields/DarkModeToggle.svelte';
 	import Navbar from '$lib/components/Navbar.svelte';
+	export const prerender = true;
 </script>
 
 <Navbar />
