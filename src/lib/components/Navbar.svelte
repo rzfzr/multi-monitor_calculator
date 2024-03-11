@@ -5,6 +5,8 @@
 	import CreateSetupDialog from './dialogs/CreateSetupDialog.svelte';
 	import SettingsDialog from './dialogs/SettingsDialog.svelte';
 
+	import { base } from '$app/paths';
+
 	let topAppBar: TopAppBar;
 	let drawerOpen: boolean = false;
 	let createSetupDialogOpen: boolean = false;
@@ -34,8 +36,8 @@
 		</Section>
 		<Section align="end" toolbar>
 			<TopAppBarTitle style="dispay:flex;">
-				<a style="color:white;" class="toolbar-link" href="/">Home</a>
-				<a style="color:white;" class="toolbar-link" href="/about">About</a>
+				<a style="color:white;" class="toolbar-link" href="{base}/">Home</a>
+				<a style="color:white;" class="toolbar-link" href="{base}/about">About</a>
 			</TopAppBarTitle>
 		</Section>
 	</Row>

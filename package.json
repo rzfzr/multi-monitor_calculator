@@ -45,6 +45,7 @@
 		"@smui/top-app-bar": "^7.0.0-beta.15",
 		"@sveltejs/adapter-auto": "^2.1.1",
 		"@sveltejs/adapter-netlify": "^2.0.8",
+		"@sveltejs/adapter-static": "^3.0.1",
 		"@sveltejs/kit": "^1.27.6",
 		"@types/uuid": "^9.0.7",
 		"@typescript-eslint/eslint-plugin": "^6.13.1",
