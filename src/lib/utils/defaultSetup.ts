@@ -13,7 +13,7 @@ const defaultSetup: ISetup = {
 			aspectRatio: '16:9',
 			bezelColor: '#666666',
 			bezelWidth: 0.75,
-			diagonal: 27,
+			diagonal: 28,
 			displayType: 'any',
 			features: {
 				curved: false,
@@ -42,7 +42,7 @@ const defaultSetup: ISetup = {
 			productLink: '',
 			scalingValue: 100,
 			refreshRate: 60,
-			resolution: { standard: 'FHD', horizontal: 1920, vertical: 1080 },
+			resolution: { standard: '4K', horizontal: 3840, vertical: 2160 },
 			responseTime: null,
 			rotateX: 0,
 			rotateY: 0,
